@@ -76,7 +76,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 6. Create a pull request.
 
 # License
-This project is licensed under the [MIT](https://opensource.org/license/mit). for more details.
+This project is licensed under the [MIT icense](https://opensource.org/license/mit). for more details.
 
 # Acknowledgements
 - ggplot2
