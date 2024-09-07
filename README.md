@@ -47,7 +47,7 @@ cd forest_fire
 ```
 
 # Dataset
-If the dataset is not included in the repository, download it from [Data(https://archive.ics.uci.edu/static/public/162/forest+fires.zip)] and place it in the /data folder.
+If the dataset is not included in the repository, download it from [Data](https://archive.ics.uci.edu/static/public/162/forest+fires.zip) and place it in the /data folder.
 
 # Usage
 ```bash
@@ -76,7 +76,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 6. Create a pull request.
 
 # License
-This project is licensed under the [MIT] (License(https://opensource.org/license/mit). for more details.
+This project is licensed under the [MIT](https://opensource.org/license/mit). for more details.
 
 # Acknowledgements
 - ggplot2
