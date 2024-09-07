@@ -76,12 +76,12 @@ If you'd like to contribute to this project, please follow these guidelines:
 6. Create a pull request.
 
 # License
-This project is licensed under the [MIT License(https://opensource.org/license/mit)]. for more details.
+This project is licensed under the [MIT] (License(https://opensource.org/license/mit). for more details.
 
 # Acknowledgements
 - ggplot2
 - ALX for inspiration
-- [https://archive.ics.uci.edu/dataset/162/forest+fires] for providing data
+- [Data source](https://archive.ics.uci.edu/dataset/162/forest+fires) for providing data
 
 # AUTHORS
 - Simanga Mchunu
