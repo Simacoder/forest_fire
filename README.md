@@ -62,7 +62,17 @@ Rscript R/main_script.R
 - Evaluation: Metrics used to assess model performance (e.g., accuracy, RMSE).
 - Visualization: Graphs, plots, and tables summarizing the results.
 
-# Results
+>[!IMPORTANT]
+
+> # Results
+> 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 4
+
+          Mean of squared residuals: 2377.655
+                    % Var explained: -13.88
+                    RMSE of the Random Forest model:  110.7208
 
 
 # Contributing
