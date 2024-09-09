@@ -65,12 +65,12 @@ Rscript R/main_script.R
 
  # Results
 > [!IMPORTANT] 
-> Type of random forest: regression
-> Number of trees: 500
-> No. of variables tried at each split: 4
-> Mean of squared residuals: 2377.655
-> % Var explained: -13.88
-> RMSE of the Random Forest model:  110.7208
+> - Type of random forest: regression
+> - Number of trees: 500
+> - No. of variables tried at each split: 4
+> - Mean of squared residuals: 2377.655
+> - % Var explained: -13.88
+> - RMSE of the Random Forest model:  110.7208
 
 
 # Contributing
