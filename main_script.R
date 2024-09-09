@@ -49,3 +49,36 @@ fires_by_month %>%
     y = "Fire count",
     x = "Month"
   )
+
+# Plotting Other Variables Against Time 
+
+forest_fires_long <- forest_fires %>%
+  pivot_longer(
+    cols = c("FFMC", "DMC", "DC",
+             "ISI", "temp", "RH",
+             "wind", "rain"),
+    names_to = "data_col",
+    values_to = "value"
+  )
+
+forest_fires_long %>%
+  ggplot(aes(x = month, y = value)) + 
+  geom_boxplot() +
+  facet_wrap(vars(data_col), scales = "free_y" ) + 
+  labs(
+    title = "Variable changes over month",
+    x = "Month",
+    y = "Variable value"
+  )
+
+# Examining Forest Fire Severity
+
+forest_fires_long %>% 
+  ggplot(aes(x = value, y = area)) +
+  geom_point() +
+  facet_wrap(vars(data_col), scales = "free_x") +
+  labs(
+    title = "Relationships between other variables and area burned",
+    x = "Value of column",
+    y = "Area burned (hectare)"
+  )
