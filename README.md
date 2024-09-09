@@ -62,7 +62,7 @@ Rscript R/main_script.R
 - Evaluation: Metrics used to assess model performance (e.g., accuracy, RMSE).
 - Visualization: Graphs, plots, and tables summarizing the results.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 
 > # Results
 > 
